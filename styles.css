@@ -7,11 +7,12 @@ html, body{
 }
 
 body{
-    margin: 0px;
+    margin: 8px;
     padding: 0px;
     background: #FFFFFF;
     font-family: 'Roboto';
     font-size: 12pt;
+    display: block;
 }
 
 h1, h2, h3{
@@ -46,6 +47,14 @@ div img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+#mainHeading{
+    color: red;
+}
+
+.funParagraph{
+    color: green;
 }
 
 /* ****** */
