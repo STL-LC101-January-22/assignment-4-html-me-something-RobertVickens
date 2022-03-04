@@ -1,1 +1,172 @@
 /* Write your CSS here! */
+/* Global Styles */
+/* ************* */
+
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 8px;
+    padding: 0px;
+    background: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 12pt;
+    display: block;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+    text-align: center;
+}
+
+p, ol, ul{
+    margin-top: 0;
+}
+
+p{
+    line-height: 180%;
+    text-align: center;
+}
+
+article{
+    line-height: 180%;
+    text-align: center;
+}
+
+ol, ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#mainHeading{
+    color: red;
+}
+
+.funParagraph{
+    color: green;
+}
+
+/* ****** */
+/* Header */
+/* ****** */
+
+header{
+    overflow: hidden;
+}
+
+#top-header{
+    text-align: center;
+    height: 60px;
+}
+
+/* ************ */
+/* Styling Logo */
+/* ************ */
+
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 90px;
+    width: 20%;
+}
+
+#logo img{
+    width: 60%;
+    float: left;
+    padding: 0px;
+}
+
+/* ************************* */
+/* Styling Header Image Menu */
+/* ************************* */
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+
+
+/* *********************** */
+/* Styling Navigation Menu */
+/* *********************** */
+
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #0074D9;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{
+         
+    color: #FFF;
+}
+     
+#menu li:hover a, #menu li span{
+    background: #FFF;
+    color: #0074D9;
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+}
+
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
+
